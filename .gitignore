@@ -86,3 +86,7 @@ output.json
 results/
 *.json
 /logs/
+
+# Docker
+.docker/
+docker-compose.override.yml
