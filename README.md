@@ -1,13 +1,28 @@
 # Tetsuo Dox Agent
 
-$TETSUO on Sol
-ca: 8i51XNNpGaKaj4G4nDdmQh95v4FKAxw8mhtaRoKd9tE8
+<div align="center">
 
-https://www.tetsuo.ai
-https://discord.gg/tetsuo-ai
+![Tetsuo AI Logo](https://github.com/user-attachments/assets/8db7cb9d-0514-4f12-80ab-2027dc58d522)
 
+[![Discord](https://img.shields.io/badge/Discord-Join%20Us-7289da?logo=discord&logoColor=white)](https://discord.gg/tetsuo-ai)
+[![Website](https://img.shields.io/badge/Website-tetsuo.ai-blue?logo=internet-explorer&logoColor=white)](https://www.tetsuo.ai)
 
-A powerful research assistant that leverages Large Language Models to provide technically-focused, well-researched answers with robust citations. Built on a graph-based architecture, the agent drafts answers, performs critical self-reflection, conducts research, and iteratively improves responses based on discovered information.
+**$TETSUO Token on Solana**  
+`Contract Address: 8i51XNNpGaKaj4G4nDdmQh95v4FKAxw8mhtaRoKd9tE8`
+
+</div>
+
+## Overview
+
+Tetsuo Dox Agent is a research agent, designed for technically-focused responses with citations. Built on a graph-based architecture, 
+
+the agent:
+
+- Drafts detailed, technically accurate answers
+- Performs systematic self-reflection and validation
+- Conducts thorough research across multiple sources
+- Iteratively refines responses based on discovered information
+- Maintains strict citation standards for factual claims
 
 ## Key Features
 
@@ -61,8 +76,8 @@ TAVILY_API_KEY=your_tavily_key_here      # Required: Tavily API key for research
 
 # Optional Configuration
 MAX_ITERATIONS=3                         # Optional: Number of research-revise cycles (default: 3)
-MODEL_NAME=gpt-4-turbo-preview          # Optional: OpenAI model choice
-MAX_RESULTS=5                           # Optional: Maximum search results per query
+MODEL_NAME=gpt-4-turbo-preview           # Optional: OpenAI model choice
+MAX_RESULTS=5                            # Optional: Maximum search results per query
 
 # Optional LangSmith Integration
 LANGCHAIN_API_KEY=your_langsmith_key     # Optional: For LangSmith tracing
