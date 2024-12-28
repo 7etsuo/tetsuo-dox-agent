@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "dox-agent"
+version = "0.1.0"
+description = ""
+authors = ["TETSUO <snowcra5h@icloud.command>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pydantic = "^2.10.4"
+pydantic-settings = "^2.7.0"
+click = "^8.1.8"
+langchain = "^0.3.13"
+langchain-openai = "^0.2.14"
+langgraph = "^0.2.60"
+python-dotenv = "^1.0.1"
+langchain-community = "^0.3.13"
+
+[tool.poetry.scripts]
+dox-agent = "dox_agent.cli:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
