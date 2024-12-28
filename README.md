@@ -14,15 +14,18 @@
 
 ## Overview
 
-Tetsuo Dox Agent is a research agent, designed for technically-focused responses with citations. Built on a graph-based architecture, 
+Tetsuo Dox Agent is a research agent, designed for technically-focused responses with citations. Built on a graph-based architecture.
 
-the agent:
+![image](https://github.com/user-attachments/assets/1ab31816-e66e-4df3-bd9e-d2f80e7b60ad)
+
+The agent:
 
 - Drafts detailed, technically accurate answers
 - Performs systematic self-reflection and validation
 - Conducts thorough research across multiple sources
 - Iteratively refines responses based on discovered information
 - Maintains strict citation standards for factual claims
+
 
 ## Key Features
 
@@ -86,6 +89,8 @@ LANGCHAIN_PROJECT=your_project_name      # Optional: LangSmith project name
 ```
 
 ## Usage
+
+![image](https://github.com/user-attachments/assets/06081610-d142-4a24-85e8-2679767618a9)
 
 ### Basic Command
 
