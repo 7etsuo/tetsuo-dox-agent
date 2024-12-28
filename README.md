@@ -88,6 +88,21 @@ LANGCHAIN_TRACING_V2=true                # Optional: Enable LangSmith tracing
 LANGCHAIN_PROJECT=your_project_name      # Optional: LangSmith project name
 ```
 
+### Docker installation
+1. Build the Docker image:
+
+```bash
+docker-compose build
+``` 
+
+2. Set up environment variables in `.env` file (same as standard installation)
+
+3. Run the agent using Docker:
+```bash
+docker-compose run --rm dox-agent "Your question here"
+```
+
+
 ## Usage
 
 ![image](https://github.com/user-attachments/assets/06081610-d142-4a24-85e8-2679767618a9)
